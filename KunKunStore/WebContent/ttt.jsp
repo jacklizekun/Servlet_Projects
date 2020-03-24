@@ -16,7 +16,7 @@
 	</head>
 
 	<body>
-	  <form action="/store_v5/ProductServlet" method="post">
+	  <form action="/KunKunStore/ProductServlet" method="post">
 	  	<input type="text" name="username"/><button>提交</button>
 	  </form>
 		

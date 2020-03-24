@@ -111,7 +111,7 @@ $(function(){
 		
 		if(txt=="订单详情"){
 			//向服务端发送Ajax请求,将当前的订单id传递到服务端
-			var url="/store_v5/AdminOrderServlet";
+			var url="/KunKunStore/AdminOrderServlet";
 			var obj={"method":"findOrderByOidWithAjax","id":id};
 			
 		
@@ -128,7 +128,7 @@ $(function(){
 				
 				//利用JQUERY遍历响应到客户端的数据
 				$.each(data,function(i,obj){
-					var td="<tr><td><img src='/store_v5/"+obj.product.pimage+"' width='50px'/></td><td>"+obj.product.pname+"</td><td>"+obj.product.shop_price+"</td><td>"+obj.quantity+"</td></tr>";
+					var td="<tr><td><img src='/KunKunStore/"+obj.product.pimage+"' width='50px'/></td><td>"+obj.product.pname+"</td><td>"+obj.product.shop_price+"</td><td>"+obj.quantity+"</td></tr>";
 					$tb.append(td);				
 				})
 			},"json");
