@@ -28,7 +28,11 @@ import service.serviceImp.ProductServiceImp;
 import utils.UUIDUtils;
 import utils.UploadUtils;
 import web.base.BaseServlet;
-
+/**
+ * 
+ * @author 李泽坤
+ *
+ */
 public class AdminProductServlet extends BaseServlet {
 	public String findAllProductsWithPage(HttpServletRequest req, HttpServletResponse resp) throws Exception {
 		int curNum=Integer.parseInt(req.getParameter("num"));

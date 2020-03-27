@@ -10,7 +10,11 @@ import service.OrderService;
 import service.serviceImp.OrderServiceImp;
 import web.base.BaseServlet;
 import net.sf.json.JSONArray;
-
+/**
+ * 
+ * @author 李泽坤
+ *
+ */
 public class AdminOrderServlet extends BaseServlet {
 
 	public String findOrders(HttpServletRequest req, HttpServletResponse resp) throws Exception {

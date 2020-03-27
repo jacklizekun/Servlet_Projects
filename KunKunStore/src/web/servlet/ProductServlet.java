@@ -8,7 +8,11 @@ import domain.Product;
 import service.ProductService;
 import service.serviceImp.ProductServiceImp;
 import web.base.BaseServlet;
-
+/**
+ * 
+ * @author 李泽坤
+ *
+ */
 public class ProductServlet extends BaseServlet {
 	public String findProductByPid(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		String pid=request.getParameter("pid");

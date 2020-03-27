@@ -14,7 +14,11 @@ import service.serviceImp.OrderServiceImp;
 import utils.PaymentUtil;
 import utils.UUIDUtils;
 import web.base.BaseServlet;
-
+/**
+ * 
+ * @author 李泽坤
+ *
+ */
 public class OrderServlet extends BaseServlet {
 	public String saveOrder(HttpServletRequest req, HttpServletResponse resp) throws Exception {
 		User user=(User)req.getSession().getAttribute("loginUser");

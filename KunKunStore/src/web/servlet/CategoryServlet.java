@@ -12,7 +12,11 @@ import utils.JedisUtils;
 import web.base.BaseServlet;
 import net.sf.json.JSONArray;
 import redis.clients.jedis.Jedis;
-
+/**
+ * 
+ * @author 李泽坤
+ *
+ */
 public class CategoryServlet extends BaseServlet {
 
 	public String findAllCats(HttpServletRequest req, HttpServletResponse resp) throws Exception {

@@ -18,7 +18,11 @@ import utils.MailUtils;
 import utils.MyBeanUtils;
 import utils.UUIDUtils;
 import web.base.BaseServlet;
-
+/**
+ * 
+ * @author 李泽坤
+ *
+ */
 public class UserServlet extends BaseServlet {
 
 	public String registUI(HttpServletRequest request, HttpServletResponse response)throws ServletException, IOException {

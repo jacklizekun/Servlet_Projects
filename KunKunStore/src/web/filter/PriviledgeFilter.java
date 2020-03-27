@@ -10,7 +10,11 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import domain.User;
-
+/**
+ * 
+ * @author 李泽坤
+ *
+ */
 public class PriviledgeFilter implements Filter {
 
     public PriviledgeFilter() { }

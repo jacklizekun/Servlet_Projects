@@ -10,7 +10,11 @@ import service.CategoryService;
 import service.serviceImp.CategoryServiceImp;
 import utils.UUIDUtils;
 import web.base.BaseServlet;
-
+/**
+ * 
+ * @author 李泽坤
+ *
+ */
 public class AdminCategoryServlet extends BaseServlet {
 	public String findAllCats(HttpServletRequest req, HttpServletResponse resp) throws Exception {
 		CategoryService CategoryService=new CategoryServiceImp();
