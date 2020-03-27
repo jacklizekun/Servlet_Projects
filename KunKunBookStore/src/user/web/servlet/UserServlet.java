@@ -20,7 +20,7 @@ import util.servlet.BaseServlet;
 /**
  * 用户模块WEB层
  * @author 李泽坤
- *
+ *激活可发送邮件
  */
 public class UserServlet extends BaseServlet {
 	//新建用户模块的业务层
